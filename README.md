@@ -11,3 +11,14 @@ An app utilizing NLP and React to track the mental health of patients (patient s
 1. For the web app, go to mealth-web and do `npm ci` and `npm start` to install the needed modules and start the server
 2. For the extension, go to the *chrome-extension* folder
 3. For the NN, view the *json* file, the *model.json*, and *model.h5* files, along with the *nn.py* file, and *text_emotion.csv* for the test data
+
+## Imgs
+
+#### Emotions analyzer:
+![](imgs/emotions.png)
+
+### Timeline
+![](imgs/timeline.png)
+
+#### Life Events
+![](imgs/lifeEvents.png)
