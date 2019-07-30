@@ -1,15 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-**/sunrise-web/node_modules
-**/sunrise-web/.pnp
-**/sunrise-web/.pnp.js
+**/mealth-web/node_modules
+**/mealth-web/.pnp
+**/mealth-web/.pnp.js
 
 # testing
-**/sunrise-web/coverage
+**/mealth-web/coverage
 
 # production
-**/sunrise-web/build
+**/mealth-web/build
 
 # misc
 .DS_Store

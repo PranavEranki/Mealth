@@ -14,7 +14,7 @@ const initialState = {
     rerender: false
 }
 
-function sunriseApp(state = initialState, action) {
+function mealthApp(state = initialState, action) {
     switch(action.type){
         case DATA_UPDATE:
             return {
@@ -40,4 +40,4 @@ function sunriseApp(state = initialState, action) {
     }
 }
 
-export default sunriseApp;
+export default mealthApp;
