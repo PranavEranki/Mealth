@@ -1,0 +1,58 @@
+.ring {
+    height: 120px;
+    border-radius: 100%;
+    width: 120px;
+    border:solid black 10px;
+}
+
+.ringName {
+    margin-top: 20px;
+}
+
+.ring.worry{
+    border: solid #ac748f 8px;
+}
+
+.ring.sad {
+    border: solid #adbdd4 8px;
+}
+
+.ring.happy {
+    border: solid #fed571 8px;
+}
+
+.ring.love {
+    border: solid #b72c3c 8px;
+}
+
+.ring.hate {
+    border: solid #45385b 8px;
+}
+
+.ring.worry{
+    border: solid #ac748f 8px;
+}
+
+.ringName.sad {
+    color: #adbdd4;
+}
+
+.ringName.happy {
+    color: #fed571;
+}
+
+.ringName.love {
+    color:  #b72c3c;
+}
+
+.ringName.hate {
+    color:  #45385b;
+}
+
+.ringName.worry{
+    color:  #ac748f;
+}
+
+.emoscore {
+    margin-top: 28px;
+}

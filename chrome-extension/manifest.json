@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Test Extension",
+  "version": "0.0",
+
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["*://*.messenger.com/*"],
+    "js": ["jquery-3.4.0.min.js","content.js"]
+  }],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Mealth",
+    "default_icon": {
+      "32": "images/heart32.png",
+      "64": "images/heart64.png",
+      "128": "images/heart128.png"
+    }
+
+  },
+
+  "permissions": ["activeTab",{"fileSystem": ["write", "retainEntries", "directory"]}]
+  
+}
